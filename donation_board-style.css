@@ -226,13 +226,14 @@ button:hover {
 
 .donation-listing-text-2 {
     font-size: 14px;
+    margin-top: 20px;
 }
 
 .listings {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
-    margin-top: 37px;
+    margin-top: 20px;
 }
 
 .panel {
