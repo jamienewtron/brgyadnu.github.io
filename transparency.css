@@ -107,7 +107,7 @@ body {
   margin: auto;
   border-radius: 25px;
   background: white;
-  box-shadow: white;
+  box-shadow:  #1DA1F2;
 }
 }
 .inner-part{
@@ -128,7 +128,7 @@ body {
   flex-shrink: 0;
   overflow: hidden;
   border-radius: 20px;
-  box-shadow: white;
+  box-shadow:  #1DA1F2;
 }
 #imgTap:checked ~ .inner-part .img{
   height: 370px;
