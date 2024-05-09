@@ -99,11 +99,6 @@ body {
  background-position: center;
   
 
-*{
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-    
 .blog-card{
   position: absolute;
   height: 370px;
@@ -206,10 +201,10 @@ body {
   cursor: pointer;
   outline: none;
   border: 1px solid #fd3535;
-  background: linear-gradient(147deg, #fe8a39  0%, #fd3838 74%);
+  background: #FDCA12;
 }
 .content button:hover{
-  background: linear-gradient(147deg, #fe791b 0%, #fd1c1c 74%);
+  background: #FDCA12;
 }
 .sliders{
   position: absolute;
@@ -241,7 +236,7 @@ body {
   left: 0;
   height: 100%;
   width: -100%;
-  background: linear-gradient(147deg,#f6b323 0%, #f23b26 74%);
+  background: #FDCA12;
   border-radius: 10px;
   transform: scaleX(0);
   transition: transform .6s;
