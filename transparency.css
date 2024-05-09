@@ -221,7 +221,7 @@ body {
 .transparency-content {
   text-align: center;
   color: white;
-  background-color: rgba(0, 0, 0, 0.7); /* Adjust the opacity as needed */
+  background-color: rgba(0, 0, 0, 0.5); /* Adjust the opacity as needed */
   padding: 20px; /* Add some padding for better readability */
 }
 
