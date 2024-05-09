@@ -204,10 +204,10 @@ body {
   cursor: pointer;
   outline: none;
   border: 1px solid #fd3535;
-  background: #FDCA12;
+  background: #1da1f2;
 }
 .content button:hover{
-  background: #FDCA12;
+  background: #1da1f2;
 }
 .sliders{
   position: absolute;
