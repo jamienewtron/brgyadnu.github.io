@@ -99,15 +99,18 @@ body {
  background-position: center;
   
 
-.blog-card{
+.blog-card {
   position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
   height: 370px;
   width: 95%;
   max-width: 850px;
-  margin: auto;
   border-radius: 25px;
   background: white;
   box-shadow: white;
+}
 }
 .inner-part{
   position: absolute;
