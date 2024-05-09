@@ -99,6 +99,68 @@ body {
   width: 100%;
 }
 
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat", Helvetica;
+  }
+
+  a {
+    text-decoration: none;
+    color: #000;
+  }
+
+  .link-style {
+    color: #000;
+  }
+
+  body {
+    min-height: 100vh;
+    background-image: url('images/tbp.jpg'); 
+    background-size: cover;
+    background-position: center;
+  }
+
+  .transparency-container {
+    padding: 20px;
+    box-sizing: border-box;
+  }
+
+  .transparency-content {
+    text-align: center;
+    color: white;
+  }
+
+  .transparency-content h2,
+  .transparency-content p {
+    margin: 0;
+  }
+
+  .transparency-content .key-metrics,
+  .transparency-content .financial-data,
+  .transparency-content .impact-stories {
+    margin-top: 20px;
+  }
+
+  .transparency-content .key-metrics h3,
+  .transparency-content .financial-data h3,
+  .transparency-content .impact-stories h3 {
+    margin-top: 0;
+  }
+
+  .transparency-content .key-metrics ul,
+  .transparency-content .financial-data ul,
+  .transparency-content .impact-stories ul {
+    list-style: none;
+    padding: 0;
+  }
+
+  .transparency-content .key-metrics ul li,
+  .transparency-content .financial-data ul li,
+  .transparency-content .impact-stories ul li {
+    margin-bottom: 10px;
+  }
 
 .footer {
   position: fixed;
