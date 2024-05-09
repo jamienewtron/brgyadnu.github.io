@@ -9,6 +9,7 @@
 
 a {
   text-decoration: none;
+  color: #000;
 }
 
 .link-style {
@@ -22,145 +23,40 @@ body {
   background-position: center;
 }
 
-.header {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  padding: 10px 100px;
-  background: #fff;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  z-index: 100;
+.transparency-container {
+  padding: 20px;
+  box-sizing: border-box;
+  margin-top: 100px; /* Adjust margin as needed */
 }
 
-.logo-container {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  text-decoration: none;
-  color: #000;
-}
-
-.logo-name {
-  font-size: 24px;
-  font-weight: 800;
-  margin-left: 10px;
-}
-
-.logo {
-  width: 50px;
-  height: 50px;
-  background-image: url(images/logo1.png);
-  background-size: cover;
-  background-position: center;
-}
-
-.navbar .menu {
-  position: relative;
-  font-size: 15px;
-  color: #1DA1F2;
-  font-weight: 500;
-  text-decoration: none;
-  margin-left: 40px;
-}
-
-.register-button {
-  position: relative;
-  margin-left: 40px;
-  background-color: #FDCA12;
-  border: none;
+.transparency-content {
+  text-align: center;
   color: white;
-  padding: 10px 26px;
-  text-decoration: none;
-  border-radius: 6px;
-  font-size: 15px;
-  font-weight: 500;
-  transition: background-color 0.3s;
 }
 
-.register-button:hover {
-  background-color: #E1B61A; 
+.transparency-content h2,
+.transparency-content p {
+  margin: 0;
 }
 
-.navbar .menu::before {
-  content: '';
-  position: absolute;
-  top: 100%;
-  left: 0;
-  width: 0;
-  height: 2px;
-  background: #1DA1F2;
-  transition: .3s;
+.transparency-content .key-metrics,
+.transparency-content .financial-data,
+.transparency-content .impact-stories {
+  margin-top: 20px;
 }
 
-.navbar .menu:hover::before {
-  width: 100%;
+.transparency-content .key-metrics ul,
+.transparency-content .financial-data ul,
+.transparency-content .impact-stories ul {
+  list-style: none;
+  padding: 0;
 }
 
-  * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: "Montserrat", Helvetica;
-  }
-
-  a {
-    text-decoration: none;
-    color: #000;
-  }
-
-  .link-style {
-    color: #000;
-  }
-
-  body {
-    min-height: 100vh;
-    background-image: url('images/tbp.jpg'); 
-    background-size: cover;
-    background-position: center;
-  }
-
-  .transparency-container {
-    padding: 20px;
-    box-sizing: border-box;
-  }
-
-  .transparency-content {
-    text-align: center;
-    color: white;
-  }
-
-  .transparency-content h2,
-  .transparency-content p {
-    margin: 0;
-  }
-
-  .transparency-content .key-metrics,
-  .transparency-content .financial-data,
-  .transparency-content .impact-stories {
-    margin-top: 20px;
-  }
-
-  .transparency-content .key-metrics h3,
-  .transparency-content .financial-data h3,
-  .transparency-content .impact-stories h3 {
-    margin-top: 0;
-  }
-
-  .transparency-content .key-metrics ul,
-  .transparency-content .financial-data ul,
-  .transparency-content .impact-stories ul {
-    list-style: none;
-    padding: 0;
-  }
-
-  .transparency-content .key-metrics ul li,
-  .transparency-content .financial-data ul li,
-  .transparency-content .impact-stories ul li {
-    margin-bottom: 10px;
-  }
+.transparency-content .key-metrics ul li,
+.transparency-content .financial-data ul li,
+.transparency-content .impact-stories ul li {
+  margin-bottom: 10px;
+}
 
 .footer {
   position: fixed;
