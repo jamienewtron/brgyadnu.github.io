@@ -103,17 +103,7 @@ body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-}
-body{
-display: flex;
-  align-items: center;
-  justify-content: center;
-  height: 100vh;
-  font-family: 'Montserrat', sans-serif;
- background-image: url('images/tbp.jpg'); 
- background-size: cover;
- background-position: center;
-}
+    
 .blog-card{
   position: absolute;
   height: 370px;
